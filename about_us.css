@@ -1,0 +1,206 @@
+body
+{
+    background-color: rgb(244, 243, 240);
+    margin: 25px 350px;
+    font-family: sans-serif;
+}
+.slogan
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .05em;
+    font-size: 15px;
+}
+.panel
+{
+    padding: 30px 0px;
+    margin-bottom: 25px;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+.sign
+{
+    display: inline-block;
+    border-left: 1.5px solid black;
+    padding-left: 5px;
+    width: 90px;
+    margin-right: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:340;
+    letter-spacing: .03em;
+    font-size: 17px;
+}
+.sign:hover
+{
+    background-color: rgb(34, 34, 34);
+}
+.sign:hover a
+{
+    color: white;
+    font-size: 18px;
+}
+.logo
+{
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .02em;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 80px;
+    width: auto;
+    padding: 0px 110px;
+}
+.search
+{
+    display: inline-block;
+    border-right: 1.5px solid black;
+    padding-right: 5px;
+    width: 100px;
+    margin-left: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:340;
+    letter-spacing: .03em;
+    font-size: 17px;
+}
+.search:hover
+{
+    background-color: rgb(34, 34, 34);
+}
+.search:hover a
+{
+    color: white;
+    font-size: 18px;
+}
+.nav
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.nav li
+{
+    list-style: none;
+}
+.nav li a
+{
+    color: rgb(71, 69, 69);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    font-size: 17px;
+    padding: 55px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.nav li a:hover
+{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing: .05em;
+    font-size: 18px;
+}
+.banner
+{
+    margin: 35px 2px;
+}
+.banner img
+{
+    width: 100%;
+}
+.about_us
+{
+    background-color: rgb(252, 250, 244);
+    padding: 10px;
+}
+.about_us h1
+{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+.about_us p
+{
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+.footer_wrapper
+{
+    margin-top: 50px;
+    border-top: 15px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.footer_wrapper p
+{
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.get
+{
+    display: grid;
+    padding-left: 0;
+    gap: 0.3em;
+}
+.get li
+{
+    list-style: none;
+    font-size: 17px;
+    color: rgb(71, 69, 69);
+    letter-spacing: .03em;
+    font-weight: 500;
+    padding: 6px;
+}
+.get li:hover
+{
+    background-color: #d2cb9e;
+}
+.customer
+{
+    display: grid;
+    padding-left: 0;
+    gap: 0.3em;
+}
+.customer li
+{
+    list-style: none;
+    font-size: 17px;
+    color: rgb(71, 69, 69);
+    letter-spacing: .03em;
+    font-weight: 500;
+    padding: 6px;
+}
+.customer li:hover
+{
+    background-color: #d2cb9e;
+}
+.info
+{
+    display: grid;
+    padding-left: 0;
+    gap: 0.3em;
+}
+.info li
+{
+    list-style: none;
+    font-size: 17px;
+    color: rgb(71, 69, 69);
+    letter-spacing: .03em;
+    font-weight: 500;
+    padding: 6px;
+}
+.info li:hover
+{
+    background-color: #d2cb9e;
+}
