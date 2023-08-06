@@ -1,0 +1,611 @@
+body
+{
+    background-color: rgb(244, 243, 240);
+    margin: 25px 15%;
+    font-family: sans-serif;
+}
+.slogan
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .05em;
+    font-size: 15px;
+    width: 70%;
+}
+.panel
+{
+    padding: 30px 0px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+.sign
+{
+    display: inline-block;
+    border-left: 1.5px solid black;
+    padding-left: 5px;
+    width: 24%;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight:340;
+    letter-spacing: .03em;
+    font-size: 100%;
+}
+.sign:hover a
+{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-size: 18px;
+}
+.logo
+{
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .02em;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 80px;
+    width: 49%;
+}
+.search
+{
+    display: inline-block;
+    width: 24%;
+    border-right: 1.5px solid black;
+    padding-right: 5px;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight:340;
+    letter-spacing: .03em;
+    font-size: 17px;
+    cursor: pointer;
+}
+.search:hover input
+{
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(34, 34, 34);
+}
+.search input
+{
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+.search a
+{
+    width: 100%;
+}
+.search:hover a
+{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    visibility: hidden;
+}
+.navigation
+{
+    width: 100%;
+}
+.nav
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    width: 98%;
+}
+.nav li
+{
+    list-style: none;
+    width: 24%;
+}
+.nav li a
+{
+    color: rgb(71, 69, 69);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+}
+.nav li a::after
+{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 50%;
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 1s ease;
+}
+.nav li a:hover::after
+{
+    transform: scaleX(1);
+}
+.nav li a:hover
+{
+    color: black;
+    font-weight: bold;
+    letter-spacing: .05em;
+    font-size: 18px;
+}
+.about_us
+{
+    width: 100%;
+    background-color: rgb(252, 250, 244);
+}
+.about_us h1
+{
+    width: 100%;
+}
+.about_us p
+{
+    width: 100%;
+    font-size: 100%;
+}
+.collections
+{
+    margin: 60px 0px;
+    width: 100%;
+}
+.collections p
+{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+.collection
+{
+    background-color: rgb(252, 250, 244);
+    border-radius: 5px;
+}
+.collection a
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    margin-bottom: 30px;
+}
+.collection:hover
+{
+    box-shadow: 7px 7px 12px black;
+}
+.collection_img
+{
+    width: 90%;
+}
+.collection_info
+{
+    width: 90%;
+}
+.collection1_img img
+{
+    width: 100%;
+    padding: 10px;
+}
+.collection1_img h1
+{
+    display: none;
+}
+.collection2_img img
+{
+    width: 100%;
+    padding: 10px;
+}
+.collection2_img h1
+{
+    display: none;
+}
+.collection_info
+{
+    display: table;
+    width: 85%;
+    text-align: center;
+}
+.content
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+.content h1
+{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .05em;
+    font-size: 40px;
+    text-decoration: underline;
+    width: 100%;
+}
+.content p
+{
+    margin-left: 3%;
+    width: 100%;
+    font-family: Courier;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: .05em;
+    font-size: 23px;
+}
+.footer_wrapper
+{
+    margin-top: 50px;
+    border-top: 15px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.footer_wrapper p
+{
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.get
+{
+    display: grid;
+    padding-left: 0;
+    gap: 0.3em;
+}
+.get li
+{
+    list-style: none;
+    font-size: 17px;
+    color: rgb(71, 69, 69);
+    letter-spacing: .03em;
+    font-weight: 500;
+    padding: 6px;
+}
+.get li:hover
+{
+    background-color: #d2cb9e;
+}
+.customer
+{
+    display: grid;
+    padding-left: 0;
+    gap: 0.3em;
+}
+.customer li
+{
+    list-style: none;
+    font-size: 17px;
+    color: rgb(71, 69, 69);
+    letter-spacing: .03em;
+    font-weight: 500;
+    padding: 6px;
+}
+.customer li:hover
+{
+    background-color: #d2cb9e;
+}
+.info
+{
+    display: grid;
+    padding-left: 0;
+    gap: 0.3em;
+}
+.info li
+{
+    list-style: none;
+    font-size: 17px;
+    color: rgb(71, 69, 69);
+    letter-spacing: .03em;
+    font-weight: 500;
+    padding: 6px;
+}
+.info li:hover
+{
+    background-color: #d2cb9e;
+}
+@media only screen and (min-width:1001px) and (max-width:1500px) 
+{
+    body
+    {
+        margin: 25px 10%;
+    }
+    .logo
+    {
+        font-size: 60px;
+    }
+    .slogan
+    {
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width:770px) and (max-width:1000px) 
+{
+    body
+    {
+        margin: 25px 5%;
+    }
+    .logo
+    {
+        font-size: 40px;
+    }
+    .slogan
+    {
+        font-size: 10px;
+    }
+    .sign
+    {
+        text-align: center;
+    }
+    .search
+    {
+        text-align: center;
+    }
+    .nav li
+    {
+        width: 15%;
+    }
+    .nav li a
+    {
+        font-size: 12px;
+        text-align: left;
+    }
+}
+@media only screen and (min-width:485px) and (max-width:769px) 
+{
+    body
+    {
+        margin: 20px 3%;
+    }
+    .slogan
+    {
+        font-size: 10px;
+        text-align: center;
+    }
+    .panel
+    {
+        display: inline-flex;
+        flex-wrap: wrap;
+    } 
+    .logo
+    {
+        order: 1;
+        width: 100%;
+        font-size: 60px;
+    }
+    .sign
+    {
+        text-align: left;
+        width: 40%;
+        order: 2;
+    }
+    .search
+    {
+        text-align: right;
+        width: 40%;
+        order: 2;
+        padding: 0;
+    }
+    .nav li
+    {
+        width: 20%;
+    }
+    .nav li a
+    {
+        font-size: 12px;
+        text-align: center;
+        font-size: 80%;
+    }
+    .collections
+    {
+        margin: 60px 0px;
+        width: 100%;
+    }
+    .collections p
+    {
+        text-align: center;
+        font-size: 30px;
+        width: 100%;
+    }
+    .collection
+    {
+        background-color: rgb(252, 250, 244);
+        border-radius: 5px;
+    }
+    .collection a
+    {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        margin-bottom: 30px;
+    }
+    .collection:hover
+    {
+        box-shadow: 7px 7px 12px black;
+    }
+    .collection1_img
+    {
+        width: 100%;
+        background-image: url("https://imagescdn.simons.ca/vb/35f9cc4a1a59752a1f231305c4bf0f0e/man-wearing-thyme-green-suede-birkenstock-kyoto-sandals.jpg");
+        background-size: cover;
+    }
+    .collection2_img
+    {
+        width: 100%;
+        background-image: url("https://www.refinery29.com/images/10339624.jpg?format=webp&width=720&height=720&quality=85");
+        background-size: cover;
+    }
+    .collection_info
+    {
+        display: none;
+    }
+    .collection1_img img
+    {
+        display: none;
+    }
+    .collection_info
+    {
+        display: table;
+        width: 85%;
+        text-align: center;
+    }
+    .content
+    {
+        display: none;
+    }
+    .collection1_img h1
+    {
+        display: block;
+        visibility: visible;
+        align-items: center;
+        margin: 300px 130px;
+        color: white;
+        border: 7px solid white;
+        width: 50%;
+        font-size: 40px;
+        padding: 20px;
+    }
+    .collection2_img img
+    {
+        display: none;
+    }
+    .collection2_img h1
+    {
+        display: block;
+        visibility: visible;
+        align-items: center;
+        margin: 300px 130px;
+        color: white;
+        border: 7px solid white;
+        width: 50%;
+        font-size: 40px;
+        padding: 20px;
+    }
+}
+@media only screen and (min-width:0px) and (max-width:484px) 
+{
+    body
+    {
+        margin: 20px 1%;
+    }
+    .slogan
+    {
+        font-size: 10px;
+    }
+    .panel
+    {
+        display: inline-flex;
+        align-items: stretch;
+        flex-wrap: wrap;
+    } 
+    .logo
+    {
+        order: 1;
+        width: 100%;
+        font-size: 60px;
+    }
+    .sign
+    {
+        width: 40%;
+        order: 2;
+    }
+    .search
+    {
+        width: 40%;
+        order: 2;
+    }
+    .nav li a
+    {
+        font-size: 80%;
+    }.collections
+    {
+        margin: 60px 0px;
+        width: 100%;
+    }
+    .collections p
+    {
+        text-align: center;
+        font-size: 30px;
+        width: 100%;
+    }
+    .collection
+    {
+        background-color: rgb(252, 250, 244);
+        border-radius: 5px;
+    }
+    .collection a
+    {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        margin-bottom: 30px;
+    }
+    .collection:hover
+    {
+        box-shadow: 7px 7px 12px black;
+    }
+    .collection1_img
+    {
+        width: 100%;
+        background-image: url("https://imagescdn.simons.ca/vb/35f9cc4a1a59752a1f231305c4bf0f0e/man-wearing-thyme-green-suede-birkenstock-kyoto-sandals.jpg");
+        background-size: cover;
+    }
+    .collection2_img
+    {
+        width: 100%;
+        background-image: url("https://www.refinery29.com/images/10339624.jpg?format=webp&width=720&height=720&quality=85");
+        background-size: cover;
+    }
+    .collection_info
+    {
+        display: none;
+    }
+    .collection1_img img
+    {
+        display: none;
+    }
+    .collection_info
+    {
+        display: table;
+        width: 85%;
+        text-align: center;
+    }
+    .content
+    {
+        display: none;
+    }
+    .collection1_img h1
+    {
+        display: block;
+        visibility: visible;
+        align-items: center;
+        margin: 300px 130px;
+        color: white;
+        border: 7px solid white;
+        width: 50%;
+        font-size: 40px;
+        padding: 20px;
+    }
+    .collection2_img img
+    {
+        display: none;
+    }
+    .collection2_img h1
+    {
+        display: block;
+        visibility: visible;
+        align-items: center;
+        margin: 300px 130px;
+        color: white;
+        border: 7px solid white;
+        width: 50%;
+        font-size: 40px;
+        padding: 20px;
+    }
+}
