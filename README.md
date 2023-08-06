@@ -1,6 +1,7 @@
-# Webpage_FootWear
+# Website_FootWear
 
-FootWear_Webpage.zip contains all the css+html files that were required to built the website.
-FootWear simple yes responsive webpage for a shoe store with interactive hover effects.
-The objective was to display my front-end skills.
-Media querires were also used to make the website responsive.
+E-commerce website for selling foot-wear shoes with interactive hover effects
+Website consists of home page , navigation menu , collections page , about us page
+In collections page, you can select shoes for preferred gender and select different categories
+Website also consists of footer menu
+Media querires were also used to make the website responsive
